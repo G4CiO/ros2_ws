@@ -1,0 +1,6 @@
+{
+  "package_name": "amt212ev_interfaces",
+  "non_idl_tuples": [
+    "/home/gun/ros2_ws/src/amt212ev_interfaces:msg/AmtRead.msg"
+  ]
+}

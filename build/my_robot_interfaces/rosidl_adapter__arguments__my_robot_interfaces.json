@@ -1,0 +1,14 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/gun/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:msg/LEDPanelState.msg",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:srv/SetLED.srv",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:srv/CatchTurtle.srv",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:action/CountUntil.action",
+    "/home/gun/ros2_ws/src/my_robot_interfaces:srv/SetNoise.srv"
+  ]
+}

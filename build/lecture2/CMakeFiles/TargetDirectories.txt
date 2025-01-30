@@ -1,0 +1,12 @@
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/uninstall.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/lecture2_uninstall.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/ament_cmake_python_copy_lecture2.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/ament_cmake_python_build_lecture2_egg.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/cpp_node_test.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/test.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/edit_cache.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/rebuild_cache.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/list_install_components.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/install.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/install/local.dir
+/home/gun/ros2_ws/build/lecture2/CMakeFiles/install/strip.dir

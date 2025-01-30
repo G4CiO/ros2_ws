@@ -1,0 +1,33 @@
+<launch>
+      <!-- create valiable for store path urdf file -->
+      <let name="urdf_path" 
+            value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro" />
+      <!-- create valiable for store path urdf config file -->
+      <let name="rviz_config_path" 
+            value="$(find-pkg-share my_robot_bringup)/rviz/urdf_config.rviz" />
+
+      <!-- Start the Robot State Publisher node with the URDF file -->
+      <node pkg="robot_state_publisher" exec="robot_state_publisher">
+            <!-- add parameter -->
+            <param name="robot_description"
+                  value="$(command 'xacro $(var urdf_path)')" />  <!-- run command xacro with "urdf_path"(variable name) -->
+      </node>
+
+      <!-- Start Gazebo -->
+      <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py" >
+
+            <!-- create argument for include other launch file -->
+            <!-- for open world that save before to gazebo -->
+            <arg name="world" value="$(find-pkg-share my_robot_bringup)/worlds/test_world.world" /> 
+
+      </include>
+
+      <!-- Spawn Robot (Spawn_entity.py node) in Gazebo -->
+      <node pkg="gazebo_ros" exec="spawn_entity.py"
+            args="-topic robot_description -entity my_robot" />
+
+      <!-- Start RViz -->
+      <node pkg="rviz2" exec="rviz2" output="screen" 
+            args="-d $(var rviz_config_path)" />
+
+</launch>

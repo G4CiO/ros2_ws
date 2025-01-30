@@ -1,0 +1,92 @@
+[0.088s] Invoking command in '/home/gun/ros2_ws/build/my_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/gun/ros2_ws/src/MobileRobotics2025/my_controller -DCMAKE_INSTALL_PREFIX=/home/gun/ros2_ws/install/my_controller
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.652s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.653s] -- Detecting CXX compile features
+[0.654s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.531s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.657s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.686s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.722s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.959s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.976s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.067s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.097s] -- Looking for pthread.h
+[2.182s] -- Looking for pthread.h - found
+[2.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.274s] -- Found Threads: TRUE  
+[2.381s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.609s] -- Configuring done
+[2.622s] -- Generating done
+[2.628s] -- Build files have been written to: /home/gun/ros2_ws/build/my_controller
+[2.638s] Invoked command in '/home/gun/ros2_ws/build/my_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake /home/gun/ros2_ws/src/MobileRobotics2025/my_controller -DCMAKE_INSTALL_PREFIX=/home/gun/ros2_ws/install/my_controller
+[2.640s] Invoking command in '/home/gun/ros2_ws/build/my_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/my_controller -- -j8 -l8
+[2.704s] [  0%] Built target ament_cmake_python_copy_my_controller
+[2.705s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[3.006s] running egg_info
+[3.007s] creating my_controller.egg-info
+[3.028s] writing my_controller.egg-info/PKG-INFO
+[3.029s] writing dependency_links to my_controller.egg-info/dependency_links.txt
+[3.029s] writing top-level names to my_controller.egg-info/top_level.txt
+[3.029s] writing manifest file 'my_controller.egg-info/SOURCES.txt'
+[3.093s] reading manifest file 'my_controller.egg-info/SOURCES.txt'
+[3.094s] writing manifest file 'my_controller.egg-info/SOURCES.txt'
+[3.132s] [ 50%] Built target ament_cmake_python_build_my_controller_egg
+[3.165s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[3.321s] [100%] Built target cpp_node_test
+[3.334s] Invoked command in '/home/gun/ros2_ws/build/my_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/my_controller -- -j8 -l8
+[3.336s] Invoking command in '/home/gun/ros2_ws/build/my_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/my_controller
+[3.343s] -- Install configuration: ""
+[3.343s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/pythonpath.sh
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/pythonpath.dsv
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller-0.0.0-py3.10.egg-info
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller/__init__.py
+[3.344s] -- Installing: /home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller/dummy_module.py
+[3.401s] Listing '/home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller'...
+[3.401s] Compiling '/home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller/__init__.py'...
+[3.401s] Compiling '/home/gun/ros2_ws/install/my_controller/local/lib/python3.10/dist-packages/my_controller/dummy_module.py'...
+[3.404s] -- Installing: /home/gun/ros2_ws/install/my_controller/lib/my_controller/dummy_script.py
+[3.404s] -- Installing: /home/gun/ros2_ws/install/my_controller/lib/my_controller/diff_drive.py
+[3.404s] -- Installing: /home/gun/ros2_ws/install/my_controller/lib/my_controller/point_to_point_controller.py
+[3.405s] -- Installing: /home/gun/ros2_ws/install/my_controller/lib/my_controller/cpp_node_test
+[3.405s] -- Set runtime path of "/home/gun/ros2_ws/install/my_controller/lib/my_controller/cpp_node_test" to ""
+[3.405s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/my_controller
+[3.405s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/my_controller/__init__.py
+[3.406s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/my_controller/dummy_module.py
+[3.406s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/scripts
+[3.406s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/scripts/dummy_script.py
+[3.406s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/scripts/diff_drive.py
+[3.406s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/scripts/point_to_point_controller.py
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/ament_index/resource_index/package_run_dependencies/my_controller
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/ament_index/resource_index/parent_prefix_path/my_controller
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/ament_prefix_path.sh
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/ament_prefix_path.dsv
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/path.sh
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/environment/path.dsv
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/local_setup.bash
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/local_setup.sh
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/local_setup.zsh
+[3.407s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/local_setup.dsv
+[3.408s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/package.dsv
+[3.408s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/ament_index/resource_index/packages/my_controller
+[3.408s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/cmake/my_controllerConfig.cmake
+[3.408s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/cmake/my_controllerConfig-version.cmake
+[3.408s] -- Installing: /home/gun/ros2_ws/install/my_controller/share/my_controller/package.xml
+[3.409s] Invoked command in '/home/gun/ros2_ws/build/my_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/my_controller

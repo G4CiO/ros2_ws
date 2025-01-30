@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- everything i write in this gazebo tag will apply to the base_link -->
+    <gazebo reference="base_link">
+        <!-- add color for base_link in gazebo -->
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="right_wheel_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="left_wheel_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="caster_wheel_link">
+        <material>Gazebo/Grey</material>
+
+        <!-- add friction coefficient on caster wheel for smoother -->
+        <mu1 value="0.1" />
+        <mu2 value="0.1" />
+        
+    </gazebo>
+
+    <!-- add gazebo ros_diff_drive plugin to control the robot -->
+    <gazebo>
+        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so"> <!-- name can change but filename don't change, it contain code for the plugin -->
+      
+            <!-- <ros> -->
+                <!-- Add a namespace -->
+                <!-- <namespace>/test</namespace> -->
+            <!-- </ros> -->
+
+            <!-- Update rate in Hz -->
+            <update_rate>50</update_rate>
+      
+            <!-- wheels -->
+            <!-- name of left and right wheel joint -->
+            <left_joint>base_left_wheel_joint</left_joint>
+            <right_joint>base_right_wheel_joint</right_joint>
+      
+            <!-- kinematics -->
+            <wheel_separation>0.45</wheel_separation> <!-- separation = distance between the center of left and right wheel  -->
+            <wheel_diameter>0.2</wheel_diameter>
+      
+            <!-- limits -->
+            <!-- <max_wheel_torque>20</max_wheel_torque>
+            <max_wheel_acceleration>1.0</max_wheel_acceleration> -->
+      
+            <!-- input -->
+            <!-- for control wheels and provide a topic as an input, so just send order to topic and then it going to control wheel -->
+            <!-- use it when want to change name of the topic -->
+            <!-- <command_topic>cmd_vel</command_topic> -->
+      
+            <!-- output -->
+            <!-- odom = basically the Odometry. it make we know where the robot by compared to the origin. (feel like read data from sensor such as encoder)-->
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+      
+            <!-- name of odometry topic (in this case is odom) -->
+            <odometry_topic>odom</odometry_topic>
+            <odometry_frame>odom</odometry_frame>
+
+            <!-- name of root frame of robot (link) -->
+            <robot_base_frame>base_footprint</robot_base_frame>
+      
+        </plugin>
+    </gazebo>
+</robot>

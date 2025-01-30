@@ -1,0 +1,44 @@
+[0.046s] Invoking command in '/home/gun/ros2_ws/build/lecture2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/lecture2 -- -j8 -l8
+[0.137s] [100%] Built target cpp_node_test
+[0.141s] [100%] Built target ament_cmake_python_copy_lecture2
+[0.555s] running egg_info
+[0.593s] writing lecture2.egg-info/PKG-INFO
+[0.594s] writing dependency_links to lecture2.egg-info/dependency_links.txt
+[0.594s] writing top-level names to lecture2.egg-info/top_level.txt
+[0.699s] reading manifest file 'lecture2.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'lecture2.egg-info/SOURCES.txt'
+[0.759s] [100%] Built target ament_cmake_python_build_lecture2_egg
+[0.777s] Invoked command in '/home/gun/ros2_ws/build/lecture2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/lecture2 -- -j8 -l8
+[0.827s] Invoking command in '/home/gun/ros2_ws/build/lecture2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/lecture2
+[0.841s] -- Install configuration: ""
+[0.842s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/pythonpath.sh
+[0.842s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/pythonpath.dsv
+[0.842s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2-0.0.0-py3.10.egg-info
+[0.842s] -- Installing: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2-0.0.0-py3.10.egg-info/top_level.txt
+[0.843s] -- Installing: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2-0.0.0-py3.10.egg-info/PKG-INFO
+[0.843s] -- Installing: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.843s] -- Installing: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.843s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2
+[0.844s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2/__init__.py
+[0.844s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2/dummy_module.py
+[0.920s] Listing '/home/gun/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages/lecture2'...
+[0.932s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/lib/lecture2/dummy_script.py
+[0.936s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/lib/lecture2/turtlesimplus_controller.py
+[0.936s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/lib/lecture2/cpp_node_test
+[0.936s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2
+[0.936s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/ament_index/resource_index/package_run_dependencies/lecture2
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/ament_index/resource_index/parent_prefix_path/lecture2
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.sh
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/ament_prefix_path.dsv
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/path.sh
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/environment/path.dsv
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/local_setup.bash
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/local_setup.sh
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/local_setup.zsh
+[0.937s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/local_setup.dsv
+[0.937s] -- Installing: /home/gun/ros2_ws/install/lecture2/share/lecture2/package.dsv
+[0.938s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/ament_index/resource_index/packages/lecture2
+[0.938s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/cmake/lecture2Config.cmake
+[0.938s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/cmake/lecture2Config-version.cmake
+[0.938s] -- Up-to-date: /home/gun/ros2_ws/install/lecture2/share/lecture2/package.xml
+[0.938s] Invoked command in '/home/gun/ros2_ws/build/lecture2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/lecture2

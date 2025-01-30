@@ -1,0 +1,49 @@
+[0.052s] Invoking command in '/home/gun/ros2_ws/build/dummy_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/dummy_gazebo -- -j8 -l8
+[0.205s] [100%] Built target cpp_node_test
+[0.252s] [100%] Built target ament_cmake_python_copy_dummy_gazebo
+[0.831s] running egg_info
+[0.870s] writing dummy_gazebo.egg-info/PKG-INFO
+[0.870s] writing dependency_links to dummy_gazebo.egg-info/dependency_links.txt
+[0.871s] writing top-level names to dummy_gazebo.egg-info/top_level.txt
+[0.994s] reading manifest file 'dummy_gazebo.egg-info/SOURCES.txt'
+[0.994s] writing manifest file 'dummy_gazebo.egg-info/SOURCES.txt'
+[1.050s] [100%] Built target ament_cmake_python_build_dummy_gazebo_egg
+[1.092s] Invoked command in '/home/gun/ros2_ws/build/dummy_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/dummy_gazebo -- -j8 -l8
+[1.142s] Invoking command in '/home/gun/ros2_ws/build/dummy_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/dummy_gazebo
+[1.155s] -- Install configuration: ""
+[1.155s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/pythonpath.sh
+[1.156s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/pythonpath.dsv
+[1.156s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo-0.0.0-py3.10.egg-info
+[1.156s] -- Installing: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo-0.0.0-py3.10.egg-info/top_level.txt
+[1.156s] -- Installing: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.158s] -- Installing: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.158s] -- Installing: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.158s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo
+[1.158s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo/__init__.py
+[1.158s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo/dummy_module.py
+[1.250s] Listing '/home/gun/ros2_ws/install/dummy_gazebo/local/lib/python3.10/dist-packages/dummy_gazebo'...
+[1.261s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/lib/dummy_gazebo/dummy_script.py
+[1.261s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/lib/dummy_gazebo/teleop.py
+[1.261s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/lib/dummy_gazebo/cpp_node_test
+[1.262s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/config
+[1.262s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/launch
+[1.262s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/launch/sim.launch.py
+[1.263s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/rviz
+[1.263s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/rviz/display.rviz
+[1.263s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/world
+[1.263s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/ament_index/resource_index/package_run_dependencies/dummy_gazebo
+[1.263s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/ament_index/resource_index/parent_prefix_path/dummy_gazebo
+[1.264s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/ament_prefix_path.sh
+[1.264s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/ament_prefix_path.dsv
+[1.264s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/path.sh
+[1.265s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/environment/path.dsv
+[1.265s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/local_setup.bash
+[1.265s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/local_setup.sh
+[1.265s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/local_setup.zsh
+[1.265s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/local_setup.dsv
+[1.266s] -- Installing: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/package.dsv
+[1.266s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/ament_index/resource_index/packages/dummy_gazebo
+[1.266s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/cmake/dummy_gazeboConfig.cmake
+[1.266s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/cmake/dummy_gazeboConfig-version.cmake
+[1.267s] -- Up-to-date: /home/gun/ros2_ws/install/dummy_gazebo/share/dummy_gazebo/package.xml
+[1.300s] Invoked command in '/home/gun/ros2_ws/build/dummy_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/dummy_gazebo

@@ -1,0 +1,7 @@
+{
+  "package_name": "controller_interfaces",
+  "non_idl_tuples": [
+    "/home/gun/ros2_ws/src/controller_interfaces:srv/SetTarget.srv",
+    "/home/gun/ros2_ws/src/controller_interfaces:srv/SetParam.srv"
+  ]
+}

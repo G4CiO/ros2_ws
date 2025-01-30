@@ -1,0 +1,45 @@
+[0.092s] Invoking command in '/home/gun/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/my_bot -- -j8 -l8
+[0.190s] Invoked command in '/home/gun/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/gun/ros2_ws/build/my_bot -- -j8 -l8
+[0.191s] Invoking command in '/home/gun/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/my_bot
+[0.217s] -- Install configuration: ""
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/config
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/config/example_controllers.yaml
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.217s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/manipulator.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/robot_core.urdf.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/gazebo.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/launch
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/launch/sim.launch.py
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/worlds
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/rviz
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/rviz/gazebo.rviz
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes
+[0.218s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes/link_1.stl
+[0.219s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes/link_3.stl
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes/link_0.stl
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes/end_effector.stl
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/meshes/link_2.stl
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.220s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.220s] -- Installing: /home/gun/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[0.221s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.221s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.221s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.221s] -- Up-to-date: /home/gun/ros2_ws/install/my_bot/share/my_bot/package.xml
+[0.242s] Invoked command in '/home/gun/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gun/CARVER_WS/install/rtabmap_python:/home/gun/ros2_ws/install/turtlesim_catch_them_all:/home/gun/ros2_ws/install/my_py_pkg:/home/gun/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/gun/ros2_ws/build/my_bot

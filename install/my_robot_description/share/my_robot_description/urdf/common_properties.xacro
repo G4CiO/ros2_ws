@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- This file for include to my_robot.urdf.xacro file -->
+
+<!-- Don't put name in command properties because it already have name in my_robot.urdf.xacro file -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="blue">
+        <color rgba="0 0 0.5 1" /> 
+    </material>
+
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 1" /> 
+    </material>
+
+    <material name="orange">
+        <color rgba="0.9 0.32 0 1" /> 
+    </material>
+
+    <material name="yellow">
+        <color rgba="1.0 0.76 0.03 1" /> 
+    </material>
+
+    <!-- create function inertial tag for define property physic in link such as inetia -->
+    <xacro:macro name="box_inertia" params="m l w h xyz rpy" > <!-- m = mass(kg), l = length, w = width, h = height -->
+        <inertial>
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <mass value="${m}" />
+            <!-- inertia formula of solid box -->
+            <inertia ixx="${(m/12)*(h*h + l*l)}" ixy="0" ixz="0"
+                     iyy="${(m/12)*(w*w + l*l)}" iyz="0"
+                     izz="${(m/12)*(w*w + h*h)}" />
+        </inertial>
+    </xacro:macro>
+
+    <xacro:macro name="cylinder_inertia" params="m r l xyz rpy" > <!-- m = mass(kg), r = radius, l = lenght -->
+        <inertial>
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <mass value="${m}" />
+            <inertia ixx="${(m/12)*(3*r*r + l*l)}" ixy="0" ixz="0"
+                     iyy="${(m/12)*(3*r*r + l*l)}" iyz="0"
+                     izz="${(m/2)*(r*r)}" />
+        </inertial>
+    </xacro:macro>
+
+    <xacro:macro name="sphere_inertia" params="m r xyz rpy" >
+        <inertial>
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <mass value="${m}" />
+            <inertia ixx="${(2/5)*m*r*r}" ixy="0" ixz="0"
+                     iyy="${(2/5)*m*r*r}" iyz="0"
+                     izz="${(2/5)*m*r*r}" />
+        </inertial>
+    </xacro:macro>
+
+</robot>

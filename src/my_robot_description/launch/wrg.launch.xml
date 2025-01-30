@@ -1,0 +1,23 @@
+<launch>
+    <!-- create valiable for store path urdf file -->
+    <let name="urdf_path" 
+         value="$(find-pkg-share my_robot_description)/urdf/wrg_bot.xacro" />
+    <!-- create valiable for store path urdf config file -->
+    <let name="rviz_config_path" 
+         value="$(find-pkg-share my_robot_description)/rviz/wrg_config.rviz" />
+
+    <!-- start the Robot State Publisher node with the URDF file -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <!-- add parameter -->
+         <param name="robot_description"
+                value="$(command 'xacro $(var urdf_path)')" />  <!-- run command xacro with "urdf_path"(variable name) -->
+    </node>
+
+    <!-- Start the Joint State Publisher -->
+    <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" />
+
+    <!-- Start RViz -->
+    <node pkg="rviz2" exec="rviz2" output="screen" 
+          args="-d $(var rviz_config_path)" />
+
+</launch>

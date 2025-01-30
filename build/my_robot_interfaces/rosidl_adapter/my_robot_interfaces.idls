@@ -1,0 +1,9 @@
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LEDPanelState.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl
+/home/gun/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetNoise.idl
